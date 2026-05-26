@@ -1,0 +1,23 @@
+# 체크포인트 
+checkpoint_mae/
+checkpoint_mae_std/
+checkpoint_mae_tcn/
+
+# 결과 폴더
+result_*/
+final_*/
+temp_*/
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# 로그
+*.txt
+!README.md
+!requirements.txt
+
+# 데이터 
+*.zip
+*.tar
