@@ -15,7 +15,7 @@ sys.path.append('/home/affctiv/Desktop/mingyu/MachineLearningProject')
 
 from load_data import load_cmapss, normalize
 from split import make_datasets, sliding_window
-from Trainer.CBAMTraining import train, evaluate
+from MachineLearningProject.Trainer.Training import train, evaluate
 from models.MAE_TCN import TCNEncoder, MAEDecoder, pretrain
 
 DATA_PATH  = "/home/affctiv/Desktop/mingyu/CMAPSS/6. Turbofan Engine Degradation Simulation Data Set"
